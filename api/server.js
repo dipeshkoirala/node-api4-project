@@ -17,6 +17,3 @@ server.get('/', logger,(req, res) => {
 module.exports = server;
 
 
-server.get("/", (req, res) => {
-
-})
