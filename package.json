@@ -4,11 +4,11 @@
   "description": "In this challenge, you will **deploy** an API of your choosing to `heroku`.",
   "main": "index.js",
   "scripts": {
-    
     "server": "nodemon --require dotenv/config index.js",
     "start": "node index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.21.17",
     "morgan": "^1.10.0",
